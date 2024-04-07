@@ -61,4 +61,5 @@
    oc apply -f 03-deployment.yaml
    ```
 5. After everyting is up, play a game and examine high scores
-6. Introduce memory quota of 10MB and increase number of instances 3 of each deployment (are applications starting?) 
+6. Introduce a namespace memory quota of 10MB and increase number of instances 3 of each deployment (are applications starting?)
+7. Configure cpu and memory requests on `game` deployment (was it able to rollout?)
