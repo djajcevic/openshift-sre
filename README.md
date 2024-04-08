@@ -14,7 +14,7 @@
 4. Using `oc` tool, figure out how to create a user and create user `alice` and `<yourusername>`
 5. Examine [Using RBAC](https://docs.openshift.com/container-platform/4.15/authentication/using-rbac.html) documentation and make `alice` admin of `joe` project
    - impersonate `alice` to make sure she can administrate `joe` project
-   - follow through the rest of the examples
+   - follow through the rest of the examples from the above documentation
      - Viewing cluster roles and bindings
      - Viewing local roles and bindings
      - Adding roles to users
